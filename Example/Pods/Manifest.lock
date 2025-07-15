@@ -1,0 +1,71 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GGXSwiftExtension (0.8.9)
+  - GXFlySpeechChat (0.1.0):
+    - GXFlySpeechChat/Core (= 0.1.0)
+    - MJExtension
+    - PTDebugView
+    - TKPermissionKit/Camera
+    - TKPermissionKit/Microphone
+    - TKPermissionKit/Photo
+    - TZImagePickerController
+  - GXFlySpeechChat/Core (0.1.0):
+    - MJExtension
+    - PTDebugView
+    - TKPermissionKit/Camera
+    - TKPermissionKit/Microphone
+    - TKPermissionKit/Photo
+    - TZImagePickerController
+  - IQKeyboardManagerSwift (6.5.11)
+  - MJExtension (3.4.1)
+  - PTDebugView (0.1.9):
+    - GGXSwiftExtension
+  - TKPermissionKit/Camera (1.2.9):
+    - TKPermissionKit/Public
+  - TKPermissionKit/Microphone (1.2.9):
+    - TKPermissionKit/Public
+  - TKPermissionKit/Photo (1.2.9):
+    - TKPermissionKit/Public
+  - TKPermissionKit/Public (1.2.9)
+  - TZImagePickerController (3.8.9):
+    - TZImagePickerController/Basic (= 3.8.9)
+    - TZImagePickerController/Location (= 3.8.9)
+  - TZImagePickerController/Basic (3.8.9)
+  - TZImagePickerController/Location (3.8.9)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GXFlySpeechChat (from `../`)
+  - IQKeyboardManagerSwift
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - GGXSwiftExtension
+    - IQKeyboardManagerSwift
+    - MJExtension
+    - PTDebugView
+    - TKPermissionKit
+    - TZImagePickerController
+
+EXTERNAL SOURCES:
+  GXFlySpeechChat:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GGXSwiftExtension: 262ca71cdb84d40e4c85045801442a0c0fb0f440
+  GXFlySpeechChat: 650d834d0b962c954c1e16afed745215b8689ada
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  PTDebugView: c719fbcf92bbcad675a9fba8a6206e863d8d021c
+  TKPermissionKit: 7a4eb4f2ca67c750962e0dcba88b1e779fe81dcf
+  TZImagePickerController: 456f470b5dea97b37226ec7a694994a8663340b2
+
+PODFILE CHECKSUM: ef3bedc3d092ff7439ddc5d80de95091de2e4452
+
+COCOAPODS: 1.16.2

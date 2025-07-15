@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wQg-tq-qST">
+            <objects>
+                <viewController id="whP-gf-Uak" customClass="GXViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u1m-Bt-Qf2">
+                                <rect key="frame" x="16" y="284.5" width="343" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BxO-Dg-fSX">
+                                <rect key="frame" x="124.5" y="331" width="126" height="35"/>
+                                <color key="backgroundColor" red="0.32549019610000002" green="0.59999999999999998" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="进入智能客服">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="进入智能客服:" destination="whP-gf-Uak" eventType="touchUpInside" id="bxG-H1-qNZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MpJ-gK-OQ7">
+                                <rect key="frame" x="141.5" y="416" width="92" height="35"/>
+                                <color key="backgroundColor" red="0.32549019610000002" green="0.59999999999999998" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="开始识别">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="开始识别:" destination="whP-gf-Uak" eventType="touchUpInside" id="hGm-WQ-c0E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A44-Pg-7Ej">
+                                <rect key="frame" x="141.5" y="471" width="92" height="35"/>
+                                <color key="backgroundColor" red="0.32549019610000002" green="0.59999999999999998" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="停止识别">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="停止识别:" destination="whP-gf-Uak" eventType="touchUpInside" id="dFL-JA-hG4"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MNo-Oe-fUj">
+                                <rect key="frame" x="16" y="20" width="343" height="183.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="web地址：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Em2-by-g6I">
+                                <rect key="frame" x="10" y="253.5" width="76.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MNo-Oe-fUj" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" id="3bW-wN-jdr"/>
+                            <constraint firstItem="MpJ-gK-OQ7" firstAttribute="top" secondItem="BxO-Dg-fSX" secondAttribute="bottom" constant="50" id="GLh-0l-uU3"/>
+                            <constraint firstItem="MNo-Oe-fUj" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="Xv3-cY-OvN"/>
+                            <constraint firstItem="u1m-Bt-Qf2" firstAttribute="top" secondItem="Em2-by-g6I" secondAttribute="bottom" constant="10" id="YcF-va-AFP"/>
+                            <constraint firstItem="MNo-Oe-fUj" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="Z5T-tB-w0b"/>
+                            <constraint firstItem="BxO-Dg-fSX" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="gFF-Zg-yn2"/>
+                            <constraint firstItem="BxO-Dg-fSX" firstAttribute="top" secondItem="u1m-Bt-Qf2" secondAttribute="bottom" constant="20" id="h6b-uD-gJz"/>
+                            <constraint firstItem="MpJ-gK-OQ7" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" constant="100" id="iKH-E4-glG"/>
+                            <constraint firstItem="u1m-Bt-Qf2" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="jUx-qI-DlR"/>
+                            <constraint firstItem="A44-Pg-7Ej" firstAttribute="top" secondItem="MpJ-gK-OQ7" secondAttribute="bottom" constant="20" id="lLq-L8-2pc"/>
+                            <constraint firstItem="MpJ-gK-OQ7" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="ndU-sY-6Dx"/>
+                            <constraint firstItem="Em2-by-g6I" firstAttribute="top" secondItem="MNo-Oe-fUj" secondAttribute="bottom" constant="50" id="ps2-qe-4Xl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="u1m-Bt-Qf2" secondAttribute="trailing" id="sxZ-Pb-gyi"/>
+                            <constraint firstItem="Em2-by-g6I" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="10" id="syE-YQ-iid"/>
+                            <constraint firstItem="A44-Pg-7Ej" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="zfO-P7-tqo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resultText" destination="MNo-Oe-fUj" id="HuG-dc-cdY"/>
+                        <outlet property="webUrl" destination="u1m-Bt-Qf2" id="eqX-N1-Ldx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

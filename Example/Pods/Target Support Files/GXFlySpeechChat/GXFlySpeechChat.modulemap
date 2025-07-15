@@ -1,0 +1,6 @@
+framework module GXFlySpeechChat {
+  umbrella header "GXFlySpeechChat-umbrella.h"
+
+  export *
+  module * { export * }
+}
